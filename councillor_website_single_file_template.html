@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cr Phil Bedworth – City of Wanneroo</title>
+  <meta name="description" content="Official website for Councillor Phil Bedworth, City of Wanneroo (Central-West Ward). News, priorities, contact details and community updates." />
+  <style>
+    :root{
+      --bg: #0b1e2d;      /* deep blue */
+      --fg: #f7f9fb;      /* near white */
+      --muted:#6a7b89;    /* grey-blue */
+      --accent:#2bb673;   /* bush green */
+      --card:#ffffff;     /* white */
+      --ink:#17212a;      /* dark text */
+      --link:#0a7cc6;     /* link blue */
+      --max: 1080px;
+      --radius: 14px;
+      --shadow: 0 10px 24px rgba(0,0,0,0.12);
+    }
+    html,body{margin:0;padding:0;font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"; color: var(--ink); background:#f3f6f9; scroll-behavior:smooth}
+    a{color:var(--link)}
+    .skip{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+    .skip:focus{position:static;width:auto;height:auto;background:var(--accent);color:#fff;padding:.5rem 1rem;border-radius:8px;margin:.5rem}
+
+    /* Header */
+    header{background: linear-gradient(180deg, var(--bg), #123349); color:var(--fg)}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 1rem}
+    .topbar{display:flex; align-items:center; justify-content:space-between; padding:1rem 0}
+    .brand{display:flex; gap:.9rem; align-items:center}
+    .brand img{width:44px;height:44px;border-radius:50%;object-fit:cover;border:2px solid rgba(255,255,255,.5)}
+    .brand h1{font-size:1.1rem; line-height:1.2; margin:0}
+    nav ul{list-style:none; display:flex; gap:1rem; margin:0; padding:0}
+    nav a{color:var(--fg); text-decoration:none; padding:.5rem .6rem; border-radius:8px}
+    nav a:hover, nav a:focus{background:rgba(255,255,255,.12)}
+
+    .hero{display:grid; grid-template-columns: 1.25fr 1fr; gap:2rem; padding:2.2rem 0 3rem}
+    .hero h2{font-size:2rem; margin:.2rem 0 1rem}
+    .hero p{font-size:1.06rem; color:var(--fg)}
+    .hero .card{background:var(--card); color:var(--ink); border-radius:var(--radius); padding:1.1rem; box-shadow: var(--shadow)}
+    .badge{display:inline-block; background:var(--accent); color:#fff; padding:.25rem .6rem; border-radius:999px; font-size:.85rem}
+
+    /* Sections */
+    main section{padding:2.25rem 0}
+    h3{margin:.2rem 0 1rem}
+    .grid{display:grid; grid-template-columns: repeat(3, 1fr); gap:1rem}
+    .two{grid-template-columns: repeat(2, 1fr)}
+    .card{background:var(--card); border-radius:var(--radius); padding:1rem; box-shadow: var(--shadow)}
+    .muted{color:var(--muted)}
+    .kpi{font-size:2rem; font-weight:700}
+
+    /* Lists */
+    ul.clean{padding-left:1.1rem}
+    ul.clean li{margin:.4rem 0}
+
+    /* Contact form */
+    form label{display:block; font-weight:600; margin:.6rem 0 .3rem}
+    input[type="text"], input[type="email"], textarea{width:100%; padding:.7rem .8rem; border:1px solid #c7d3dd; border-radius:10px; font-size:1rem; background:#fff}
+    textarea{min-height:140px}
+    .btn{display:inline-block; background:var(--accent); color:#fff; padding:.7rem 1rem; border:none; border-radius:12px; font-size:1rem; cursor:pointer}
+    .btn:hover,.btn:focus{filter:brightness(.95)}
+
+    /* Footer */
+    footer{background:#0f2637; color:#cfe0ea; padding:2rem 0}
+    footer a{color:#cfe0ea}
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .hero{grid-template-columns: 1fr}
+      .grid{grid-template-columns: 1fr}
+      nav ul{gap:.4rem}
+      .brand h1{font-size:1rem}
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header>
+    <div class="wrap">
+      <div class="topbar">
+        <div class="brand">
+          <img src="headshot.jpg" alt="Portrait of Cr Phil Bedworth" />
+          <h1>Cr Phil Bedworth<br><span style="opacity:.8">City of Wanneroo – Central‑West Ward</span></h1>
+        </div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#priorities">Priorities</a></li>
+            <li><a href="#updates">Updates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="hero">
+        <div>
+          <span class="badge">Here to help</span>
+          <h2>Practical, community‑first representation</h2>
+          <p>I represent Clarkson, Quinns Rocks, Mindarie and Neerabup. My focus is safer streets, better local amenities, and straight answers. If I can help with a City matter, please reach out.</p>
+          <p><a class="btn" href="#contact">Get in touch</a></p>
+        </div>
+        <aside class="card" aria-label="How I can help">
+          <h3 style="margin-top:0">How I can help</h3>
+          <ul class="clean">
+            <li>Raise your concerns with the City administration</li>
+            <li>Seek updates on local projects and maintenance</li>
+            <li>Assist with community consultations</li>
+            <li>Connect you with the right team quickly</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <div class="wrap">
+      <section id="priorities" aria-labelledby="priorities-h">
+        <h3 id="priorities-h">Priorities</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>Traffic & safety</h4>
+            <p class="muted">Targeted improvements where they matter most.</p>
+            <ul class="clean">
+              <li>Evidence‑based speed and crossing upgrades</li>
+              <li>Better path links for walking and cycling</li>
+              <li>Transparent timelines for works</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Parks & coastline</h4>
+            <p class="muted">Protect and enhance our open spaces.</p>
+            <ul class="clean">
+              <li>Practical coastal management</li>
+              <li>Shade, seating and accessible facilities</li>
+              <li>Dog‑friendly spaces where suitable</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Local economy</h4>
+            <p class="muted">Support for small business and local jobs.</p>
+            <ul class="clean">
+              <li>Sensible approvals and clearer signage rules</li>
+              <li>Vibrant town centres</li>
+              <li>Back community events</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="updates" aria-labelledby="updates-h">
+        <h3 id="updates-h">News and updates</h3>
+        <div class="two grid">
+          <article class="card">
+            <h4 style="margin-top:0">Coastal access feedback</h4>
+            <p class="muted">Brief note on current consultation and how to have your say. Link to your Facebook post or the City page for details.</p>
+            <p><a href="#">Read more</a></p>
+          </article>
+          <article class="card">
+            <h4 style="margin-top:0">Road safety works</h4>
+            <p class="muted">Update on a local intersection upgrade. Summarise what’s changing and the timeframe.</p>
+            <p><a href="#">Read more</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-h">
+        <h3 id="contact-h">Get in touch</h3>
+        <div class="two grid">
+          <div class="card">
+            <form action="https://formspree.io/f/your-id" method="POST">
+              <p class="muted">Use this form to contact me directly. I aim to reply within a couple of working days.</p>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+
+              <input type="hidden" name="_subject" value="Website enquiry" />
+              <p><button class="btn" type="submit">Send message</button></p>
+              <p class="muted" style="font-size:.9rem">Privacy: Messages are emailed to my councillor inbox. No data is shared with third parties.</p>
+            </form>
+          </div>
+          <div class="card">
+            <h4 style="margin-top:0">Other ways to reach me</h4>
+            <ul class="clean">
+              <li>Email: <a href="mailto:phil.bedworth@example.com">phil.bedworth@example.com</a></li>
+              <li>Facebook: <a href="#">facebook.com/PhilBedworth</a></li>
+              <li>Phone (business hours): 04xx xxx xxx</li>
+              <li>Mail: City of Wanneroo, 23 Dundebar Rd, Wanneroo WA 6065</li>
+            </ul>
+            <p class="muted" style="font-size:.92rem">If your matter is urgent or relates to community safety, please also contact WA Police on 131 444 (non‑urgent) or 000 in an emergency.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p><strong>Cr Phil Bedworth</strong> – City of Wanneroo (Central‑West Ward). This is a personal website for community information.</p>
+      <p class="muted">© <span id="y"></span> Phil Bedworth. <a href="#contact">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
